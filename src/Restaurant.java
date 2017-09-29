@@ -88,7 +88,7 @@ class newc{
               break;
           switch(pcode){
               case "DB11":case"db11":
-                  price=200;
+                  price=210;
                   vat=0*price;
                   tp=tp+price;
                   tv=tv+vat;
@@ -97,7 +97,7 @@ class newc{
                    System.out.println("\t\t\tOld Vat : "+vat+"TK");
                   break;
                    case "BF11":case"bf11":
-                  price=200;
+                  price=220;
                   vat=0*price;
                   tp=tp+price;
                   tv=tv+vat;
@@ -106,7 +106,7 @@ class newc{
                    System.out.println("\t\t\tOld Vat : "+vat+"TK");    
                        break;
                   case "VG11":case"vg11":
-                  price=300;
+                  price=250;
                   vat=0*price;
                   tp=tp+price;
                   tv=tv+vat;
